@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "swiper": "/components/swiper/swiper",
+    "map": "/components/map/map",
+    "title": "/components/title/title"
+  }
+}

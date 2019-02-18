@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 轮播 -->
+  <swiper></swiper>
+  <map></map>
+  <title></title>
+  <button bindtap="call">didiid1</button>
+</view>

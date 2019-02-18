@@ -1,0 +1,6 @@
+/* pages/swiper/swiper.wxss */
+
+swiper {
+  background: #eee;
+  height: 500rpx;
+}

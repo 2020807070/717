@@ -1,0 +1,17 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{data}}">
+      <block wx:for="{{item}}">
+        <swiper-item>
+          <image src="{{item}}"></image>
+        </swiper-item>
+      </block>
+    </block>
+  </swiper>
+  <block wx:for="{{data}}">
+    <span>
+      {{index}}
+    </span>
+  </block>
+  <image src='http://imgs2.jiwu.com/attachment/buildpic/2018/07/05/19291549_m.jpg'></image>
+</view>
