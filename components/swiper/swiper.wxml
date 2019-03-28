@@ -1,17 +1,16 @@
-<view>
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-    <block wx:for="{{data}}">
-      <block wx:for="{{item}}">
+<view class='swiper'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperChange">
+    <view wx:for="{{data}}" wx:for-index='key' wx:key="{{key}}">
+      <view wx:for="{{item}}" wx:key="{{index}}">
         <swiper-item>
-          <image src="{{item}}"></image>
+          <image src='{{item}}'></image>
         </swiper-item>
-      </block>
-    </block>
+      </view>
+    </view>
   </swiper>
-  <block wx:for="{{data}}">
-    <span>
-      {{index}}
-    </span>
-  </block>
-  <image src='http://imgs2.jiwu.com/attachment/buildpic/2018/07/05/19291549_m.jpg'></image>
+  <view class="swiper-footer">
+   <view class='footer-item'>
+    <view wx:for="{{data}}" class="swiper-footer" wx:key="{{index}}">{{index}}</view>
+   </view>
+  </view>
 </view>

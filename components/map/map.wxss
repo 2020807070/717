@@ -1,1 +1,10 @@
 /* pages/map.wxss */
+
+.map-wrap {
+  width: 100%;
+}
+
+.map-wrap map {
+  width: 100%;
+  height: 200px;
+}

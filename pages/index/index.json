@@ -1,7 +1,11 @@
 {
   "usingComponents": {
     "swiper": "/components/swiper/swiper",
-    "map": "/components/map/map",
-    "title": "/components/title/title"
+    "title": "/components/title/title",
+    "footer": "/components/footer/footer",
+    "introduce": "/components/introduce/introduce",
+    "van-nav-bar": "../../dist/nav-bar/index",
+    "van-cell": "../../dist/cell/index",
+    "van-cell-group": "../../dist/cell-group/index"
   }
 }

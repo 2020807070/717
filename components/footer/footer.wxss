@@ -1,0 +1,16 @@
+footer {
+  background: #fff;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+}
+
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-wrapper button {
+  flex-basis: 48%;
+  font-size: 16px;
+  background: rgba(41, 161, 247);
+}

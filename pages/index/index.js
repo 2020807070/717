@@ -4,13 +4,16 @@ const app = getApp()
 
 Page({
   data: {
-    
+    markers: [{
+      iconPath: '/resources/others.png',
+      id: 0,
+      latitude: 35.0346800000,
+      longitude: 111.0045700000,
+      width: 50,
+      height: 50
+    }]
   },
-  call: function() {
-    wx.makePhoneCall({
-      phoneNumber: '18510981069' // 仅为示例，并非真实的电话号码
-    })
-  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

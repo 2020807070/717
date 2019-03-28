@@ -2,24 +2,19 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/facilities/facilities"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "嘻嘻嘻",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "123132",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/map/map",
-        "text": "日志"
-      }
-    ]
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
   }
 }

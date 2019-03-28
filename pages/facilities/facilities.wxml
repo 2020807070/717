@@ -1,0 +1,25 @@
+<view class="wrapper">
+  <view class="wrap-header">
+    <van-nav-bar class="nav-bar" title="房屋配套" left-text="返回" left-arrow bind:click-left="onClickLeft" bind:click-right="onClickRight" />
+  </view>
+  <view class="wrap-section">
+    <van-cell title="电饭锅">
+      <van-icon slot="right-icon" name="search" class="van-cell__right-icon" />
+    </van-cell>
+    <van-cell title="热水器">
+      <van-icon slot="right-icon" name="search" class="van-cell__right-icon" />
+    </van-cell>
+    <van-cell title="空调">
+      <van-icon slot="right-icon" name="search" class="van-cell__right-icon" />
+    </van-cell>
+    <van-cell title="双人床">
+      <van-icon slot="right-icon" name="search" class="van-cell__right-icon" />
+    </van-cell>
+    <van-cell title="衣柜">
+      <van-icon slot="right-icon" name="search" class="van-cell__right-icon" />
+    </van-cell>
+  </view>
+  <view class="wrap-footer">
+
+  </view>
+</view>

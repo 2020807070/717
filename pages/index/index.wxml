@@ -1,8 +1,18 @@
 <!--index.wxml-->
-<view class="container">
-  <!-- 轮播 -->
-  <swiper></swiper>
-  <map></map>
-  <title></title>
-  <button bindtap="call">didiid1</button>
+<view class='container'>
+  <!-- 在这里编写页面的结构 -->
+  <view class='main'>
+    <!-- 轮播图 -->
+    <swiper />
+    <!-- 房屋介绍 -->
+    <introduce />
+    <!-- 房屋位置 -->
+    <van-cell title="运城市人民北路319号" icon="location-o" url="./../map/map" value="查看周边" is-link />
+    <map longitude="111.0045700000" latitude="35.0346800000" show-location scale="16" enable-zoom="{{false}}" enable-scroll="{{false}}" style="width: 100%;"></map>
+    <!--房屋设施 -->
+    <van-cell border="{{ true }}" title="房屋配套" url="./../facilities/facilities" value="查看全部" is-link />
+    <view class='facilities-part'></view>
+
+  </view>
+  <footer class="footer"></footer>
 </view>

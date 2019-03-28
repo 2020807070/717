@@ -1,0 +1,17 @@
+<view class="introduce">
+  <view class='tit'>{{title}}</view>
+  <view class='slogan'>{{slogan}}</view>
+  <view class='tags'>
+    <van-tag size="large" color="#f2826a" plain>高层</van-tag>
+    <van-tag size="large" color="#f2826a" plain>复式</van-tag>
+    <van-tag size="large" color="#f2826a" plain>空中花园</van-tag>
+  </view>
+  <view class='detail'>
+    <text> <text class="detail-tit">面积</text>45㎡(单层面积)</text>
+    <text> <text class="detail-tit">楼层</text>8/9层</text>
+    <text> <text class="detail-tit">供暖</text>集体供暖</text>
+    <text> <text class="detail-tit">电梯</text>有</text>
+    <text> <text class="detail-tit">户型</text>一室一厅一卫一厨一阳台</text>
+  </view>
+</view>
+<!-- <van-cell size="large" border="{{true}}" center="{{true}}" title="视频看房" icon="video-o" value="立即观看" /> -->

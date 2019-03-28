@@ -1,0 +1,12 @@
+[
+  {
+    "is": true,
+    "icon": "iconfont",
+    "content": "洗衣机"
+  },
+  {
+    "is": false,
+    "icon": "iconfont",
+    "content": "机关枪"
+  },
+]

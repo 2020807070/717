@@ -1,0 +1,12 @@
+<view class="footer">
+  <view class='footer-wrapper'>
+    <button bindtap="call" plain="false">
+      <van-icon name="phone-o" /> 联系房东
+    </button>
+    <button bindtap="map" type="primary" hover-class="other-button-hover">
+      <van-icon name="star-o" /> 收藏房源
+    </button>
+    <!-- <van-button>默认按钮</van-button>
+    <van-button>默认按钮</van-button> -->
+  </view>
+</view>

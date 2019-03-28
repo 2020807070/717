@@ -1,15 +1,18 @@
-<map
-  id="map"
-  enable-zoom="true"
-  longitude="113.324520"
-  latitude="23.099994"
-  scale="14"
-  controls="{{controls}}"
-  bindcontroltap="controltap"
-  markers="{{markers}}"
-  bindmarkertap="markertap"
-  polyline="{{polyline}}"
-  bindregionchange="regionchange"
-  show-location
-  style="width: 100%; height: 300px;"
-></map>
+<!-- <view class="place_info">
+  <text>{{placeData.title}}</text>
+  <text>{{placeData.address}}</text>
+  <text>{{placeData.telephone}}</text>
+</view> -->
+<view class="wrapper">
+  <view class="wrap-header">
+    <van-nav-bar class="nav-bar" title="周边环境" left-text="返回" left-arrow bind:click-left="onClickLeft" bind:click-right="onClickRight" />
+  </view>
+  <view class="wrap-section">
+    <map class="map" iconPath="../../img/marker_red.png" title="葡萄新城" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" show-location="true" markers="{{markers}}" bindmarkertap="makertap"></map>
+  </view>
+  <view class="wrap-footer">
+    <van-tabbar active="{{ active }}" bind:change="mapLoad" data-type="{{mapbar}}">
+      <van-tabbar-item icon="{{item.icon}}" wx:for="{{mapbar}}">{{item.val}}</van-tabbar-item>
+    </van-tabbar>
+  </view>
+</view>
